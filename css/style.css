@@ -1,0 +1,229 @@
+body {
+  background-color: navajowhite;
+  font-family: Arial;
+  margin: 0;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-family: Georgia;
+  text-shadow: 0 0 5px #a11313, 0 0 100px #a11313, 0 0 50px #a11313, 0 0 40px #a11313;
+}
+
+p {
+  font-size: 35px;
+  font-family: Impact;
+  width: 230px;
+  margin-left: 40px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  margin-left: 30px;
+}
+
+.aboutme {
+  margin-left: 40px;
+  margin-top: -30px;
+  font-size: 18px;
+  font-family: Arial;
+  width: 230px;
+  text-align: center;
+}
+
+.aboutmebox {
+  position: absolute;
+  top: 150px;
+  right: 160px;
+  width: 500px;
+  background-color: white;
+  border-style: double;
+}
+
+.aboutmebox h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Verdana;
+  color: indianred;
+  text-align: auto;
+  font-size: 36px;
+  text-align: center;
+}
+
+.introtext {
+  font-size: 18px;
+  font-family: Verdana;
+  width: auto;
+  margin: auto;
+  text-align: auto;
+}
+
+.aboutmebox2 {
+  position: absolute;
+  top: 460px;
+  right: 160px;
+  width: 500px;
+  background-color: white;
+  border-style: double;
+}
+
+.aboutmebox2 h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Verdana;
+  color: indianred;
+  font-size: 36px;
+  text-align: center;
+}
+
+.introtext2 {
+  font-size: 18px;
+  font-family: Verdana;
+  width: auto;
+  margin: auto;
+}
+
+.alignedicons {
+  position: absolute;
+  top: 675px;
+  right: 180px;
+  width: 500px;
+  text-align: center;
+}
+
+.alignedicons a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+.alignedicons a:nth-child(1) {
+  background-color: red;
+  border-radius: 50%;
+}
+
+.alignedicons a:nth-child(2) {
+  background-color: green;
+  border-radius: 50%;
+}
+
+.alignedicons a:nth-child(3) {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.alignedicons a:nth-child(4) {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.portfoliobox {
+  position: absolute;
+  top: 630px;
+  left: 30px;
+  width: 250px;
+  background-color: white;
+  border: 2px solid darkgreen;
+  border-style: double;
+}
+
+.portfoliobox h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: Verdana;
+  color: darkred;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 5px #a11313, 0 0 100px #a11313, 0 0 50px #a11313, 0 0 40px #a11313;
+}
+
+.portfoliotext {
+  font-size: 20px;
+  font-family: Impact;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.portfoliotext a {
+  color: red;
+  text-decoration: underline;
+}
+
+.menu {
+  background-color: skyblue;
+  border-style: double;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.logo {
+  float: left;
+  font-family: Georgia;
+  font-size: 28px;
+  color: darkred;
+  font-weight: bold;
+  padding: 10px 20px 10px 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu ul li a {
+  float: left;
+  display: block;
+  font-family: Verdana;
+  font-size: 18px;
+  color: yellow;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+
+.portfoliobox2 {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  width: 250px;
+  background-color: white;
+  border-style: double;
+  padding: 20px;
+}
+
+.portfoliobox2 h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: Verdana;
+  color: darkred;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 5px #a11313, 0 0 100px #a11313, 0 0 50px #a11313, 0 0 40px #a11313;
+}
+
+.portfoliotext2 {
+  font-size: 20px;
+  font-family: Impact;
+  width: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.portfoliotext2 a {
+  color: black;
+  text-decoration: underline;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
